@@ -20,7 +20,7 @@ function setup() {
     stars[i] = new Star();
   }
   createP("Use you arrowkeys to move the rocket. Use spacebar to shoot the asteroids.");
-  createP("Once an asteroid leaves the right side of your screen you lose a life.");
+  createP("Once an asteroid leaves the left side of your screen you lose a life.");
   //create Asteroids
   for (let i = 0; i < 15; i++) {
     asteroids[i] = new Asteroid();
